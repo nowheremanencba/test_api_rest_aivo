@@ -1,0 +1,1 @@
+CREATE TABLE `api_rest_Aivo`.`users` ( `id` INT NOT NULL , `first_name` VARCHAR(250) NULL , `last_name` VARCHAR(250) NULL ) ENGINE = InnoDB;
