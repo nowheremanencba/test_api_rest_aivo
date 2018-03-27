@@ -1,27 +1,16 @@
-# Slim Framework 3 Skeleton Application
+# Slim Framework 3  
 
-Use this skeleton application to quickly setup and start working on a new Slim Framework 3 application. This application uses the latest Slim 3 with the PHP-View template renderer. It also uses the Monolog logger.
+*PHP built-in server
 
-This skeleton application was built for Composer. This makes setting up a new Slim Framework application quick and easy.
+Download proyect from git. Run the following command in terminal to start localhost web server, assuming ./public/ is public-accessible directory with index.php file:
 
-## Install the Application
+php -S localhost:8888 -t public public/index.php
 
-Run this command from the directory in which you want to install your new Slim Framework application.
 
-    php composer.phar create-project slim/slim-skeleton [my-app-name]
+*Using the Application with xampp
 
-Replace `[my-app-name]` with the desired directory name for your new application. You'll want to:
+1. Create table user in db called api_rest_aivo
+2. Download proyect from git and copy it in htdocs of xampp
+3. URL example: http://localhost:8090/test_api_rest_aivo-master/apirestFacebook/public/index.php/profile/facebook/12
 
-* Point your virtual host document root to your new application's `public/` directory.
-* Ensure `logs/` is web writeable.
-
-To run the application in development, you can run these commands 
-
-	cd [my-app-name]
-	php composer.phar start
-
-Run this command in the application directory to run the test suite
-
-	php composer.phar test
-
-That's it! Now go build something cool.
+ 
