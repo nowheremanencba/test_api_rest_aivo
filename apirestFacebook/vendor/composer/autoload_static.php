@@ -23,6 +23,7 @@ class ComposerStaticInitc601aabf022e4eb10221a4e4ea134689
         'T' => 
         array (
             'Tests\\' => 6,
+            'Test\\InfoProfileAPI\\' => 20,
         ),
         'S' => 
         array (
@@ -69,6 +70,10 @@ class ComposerStaticInitc601aabf022e4eb10221a4e4ea134689
         'Tests\\' => 
         array (
             0 => __DIR__ . '/../..' . '/tests',
+        ),
+        'Test\\InfoProfileAPI\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'Symfony\\Component\\Yaml\\' => 
         array (

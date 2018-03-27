@@ -26,5 +26,7 @@ require __DIR__ . '/../src/middleware.php';
 // Register routes
 require __DIR__ . '/../src/routes.php';
 
+// Run app for testing with php unit 
+//$app = (new Test\InfoProfileAPI\App())->get();
 // Run app
 $app->run();

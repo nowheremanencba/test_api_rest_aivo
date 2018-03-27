@@ -1,14 +1,14 @@
 {
-    "name": "slim/slim-skeleton",
-    "description": "A Slim Framework skeleton application for rapid development",
+    "name": "testApiRestAivo",
+    "description": "testApiRestAivo get info facebook profile",
     "keywords": ["microframework", "rest", "router", "psr7"],
     "homepage": "http://github.com/slimphp/Slim-Skeleton",
     "license": "MIT",
     "authors": [
         {
-            "name": "Josh Lockhart",
-            "email": "info@joshlockhart.com",
-            "homepage": "http://www.joshlockhart.com/"
+            "name": "Cristian Ortega",
+            "email": "aortegacristian@gmail.com",
+            "homepage": ""
         }
     ],
     "require": {
@@ -31,6 +31,11 @@
     "scripts": {
         "start": "php -S localhost:8080 -t public index.php",
         "test": "phpunit"
-    }
+    },
+	 "autoload": {
+        "psr-4": {
+            "Test\\InfoProfileAPI\\" : "src"
+        }
+}
 
 }

@@ -1,6 +1,6 @@
 <?php
   
-    $app->get('/facebook/[{id}]', function ($request, $response, $args) {
+    $app->get('/profile/facebook/[{id}]', function ($request, $response, $args) {
          $id     = $request->getAttribute('id');
         try{ 
               //Buscar el usuario en facebook api
