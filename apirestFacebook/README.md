@@ -16,7 +16,8 @@ php -S localhost:8888 -t public public/index.php
 
 
 *Test with php unit
-Run PHPUnit against TodoTest.php :
+
+Run PHPUnit against TodoTest.php. 
 In the folder vendor/bin run phpunit with path TodoTest.php
 ./vendor/bin/phpunit ./test/TodoTest.php
 
