@@ -7,8 +7,7 @@
     "authors": [
         {
             "name": "Cristian Ortega",
-            "email": "aortegacristian@gmail.com",
-            "homepage": ""
+            "email": "aortegacristian@gmail.com"
         }
     ],
     "require": {
