@@ -1,4 +1,4 @@
-# test_api_rest_aivo
+# api_rest_aivo
 Description:
 API endpoint which receive a facebook id as parameter and the response is the information about his profile(Id,first_name, last_name), saving the user information.
 
